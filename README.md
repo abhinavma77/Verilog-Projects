@@ -18,5 +18,7 @@ Collection of Verilog RTL dessign and simulation projects
 [DECODER 2:4 OUTPUT]
 <img width="1919" height="1076" alt="Screenshot 2026-02-24 221705" src="https://github.com/user-attachments/assets/90150568-f79b-4bf2-b5a3-98bbee6fae8f" />
 
+[DECODER 3:8]
+<img width="1917" height="1076" alt="Screenshot 2026-02-24 223507" src="https://github.com/user-attachments/assets/dccbc48f-ae88-4edb-8ea8-36de48aa2f6a" />
 
 

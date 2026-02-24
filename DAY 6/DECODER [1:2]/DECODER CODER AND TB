@@ -1,0 +1,36 @@
+module decoder_1_2(
+    input A,
+    output Y0,
+    output Y1
+);
+
+assign Y0 = ~A;
+assign Y1 = A;
+
+endmodule
+
+#TESTBENCH
+
+module decoder_1_2_tb;
+
+reg A;
+wire Y0, Y1;
+
+
+decoder_1_2 uut (
+    .A(A),
+    .Y0(Y0),
+    .Y1(Y1)
+);
+
+initial begin
+    $display("A Y0 Y1");
+    $monitor("%b %b %b", A, Y0, Y1);
+
+    A = 0; #10;
+    A = 1; #10;
+
+    $finish;
+end
+
+endmodule

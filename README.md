@@ -11,3 +11,6 @@ Collection of Verilog RTL dessign and simulation projects
 
 [FULL ADDER OUTPUT]
 <img width="1917" height="1078" alt="Screenshot 2026-02-19 183312" src="https://github.com/user-attachments/assets/c6aa33da-827e-4274-8327-314e2ab3dece" />
+
+[DECODER 1:2 OUTPUTY]
+<img width="1901" height="1079" alt="Screenshot 2026-02-24 215611" src="https://github.com/user-attachments/assets/59adf26d-b150-487b-a6fe-744fa8a04118" />

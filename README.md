@@ -24,3 +24,5 @@ Collection of Verilog RTL dessign and simulation projects
 [4 BIT ALU OUTPUT]
 <img width="1903" height="1079" alt="Screenshot 2026-02-26 231756" src="https://github.com/user-attachments/assets/b5e53b33-1dbc-4af5-aabe-5655dcb60815" />
 
+[PARAMETERIZED N-BIT ALU]
+<img width="1919" height="1069" alt="Screenshot 2026-03-01 203957" src="https://github.com/user-attachments/assets/dbe9ab8c-c784-48a8-8e5f-f1ae20913022" />

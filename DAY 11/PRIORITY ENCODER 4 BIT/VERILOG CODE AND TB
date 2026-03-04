@@ -1,0 +1,52 @@
+module priority_encoder_4bit (
+    input  [3:0] I,      
+    output reg [1:0] Y,  
+    output reg Valid     
+);
+
+always @(*) begin
+    Valid = 1'b1;  
+
+    casez (I)
+        4'b1???: Y = 2'b11;  
+        4'b01??: Y = 2'b10;  
+        4'b001?: Y = 2'b01;  
+        4'b0001: Y = 2'b00;  
+        default: begin
+            Y = 2'b00;
+            Valid = 1'b0;    
+        end
+    endcase
+end
+
+endmodule
+
+#TESTBENCH
+module priority_encoder_4bit_tb;
+
+reg [3:0] I;
+wire [1:0] Y;
+wire Valid;
+
+priority_encoder_4bit uut (
+    .I(I),
+    .Y(Y),
+    .Valid(Valid)
+);
+
+initial begin
+    $monitor("Time=%0t | I=%b | Y=%b | Valid=%b",
+              $time, I, Y, Valid);
+
+    I = 4'b0000; #10;
+    I = 4'b0001; #10;
+    I = 4'b0010; #10;
+    I = 4'b0100; #10;
+    I = 4'b1000; #10;
+    I = 4'b1010; #10; 
+    I = 4'b1111; #10; 
+
+    $finish;
+end
+
+endmodule

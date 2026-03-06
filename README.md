@@ -30,3 +30,5 @@ Collection of Verilog RTL dessign and simulation projects
 [PRIORITY ENCODER 4BIT OUTPUT]
 <img width="1915" height="1052" alt="Screenshot 2026-03-04 234517" src="https://github.com/user-attachments/assets/be6a5c1a-80e5-409d-9cb2-ee59843b2fbd" />
 
+[BINARY TO GRAY CODER]
+<img width="1919" height="1079" alt="Screenshot 2026-03-06 235123" src="https://github.com/user-attachments/assets/b92ca7a6-9863-4b2e-8f58-45e6e5b3d9ea" />

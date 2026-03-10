@@ -27,6 +27,10 @@ Collection of Verilog RTL dessign and simulation projects
 [PARAMETERIZED N-BIT ALU]
 <img width="1919" height="1069" alt="Screenshot 2026-03-01 203957" src="https://github.com/user-attachments/assets/dbe9ab8c-c784-48a8-8e5f-f1ae20913022" />
 
+[REGISTER FILE OOUPUT]
+<img width="1919" height="1068" alt="Screenshot 2026-03-10 225703" src="https://github.com/user-attachments/assets/9ee3c929-f9cd-40bc-8b28-6992c4b45682" />
+
+
 [PRIORITY ENCODER 4BIT OUTPUT]
 <img width="1915" height="1052" alt="Screenshot 2026-03-04 234517" src="https://github.com/user-attachments/assets/be6a5c1a-80e5-409d-9cb2-ee59843b2fbd" />
 
